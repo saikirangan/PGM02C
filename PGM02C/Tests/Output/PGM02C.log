@@ -1,0 +1,47 @@
+15:06:25.722 INFO      TOPAZ            ***************************************
+15:06:25.722 INFO      TOPAZ            ** Execution from Topaz with options **
+15:06:25.722 INFO      TOPAZ            ***************************************
+15:06:25.723 INFO      TOPAZ            Using repository: true
+15:06:25.723 INFO      TOPAZ            Repository URL: http://10.10.1.174:48226/totaltestapi/
+15:06:25.723 INFO      TOPAZ            ***************************************
+15:06:25.723 INFO      Engine           Test Scenario execution started
+15:06:25.723 INFO      Engine           Using context settings:
+  Engine Version                : 20.10.3.v20220524-1628_164
+  Environment id                : 64991a29912e620b50cd466e
+  Environment type              : Batch
+  Operating system              : ZOS
+  zOS agent version             : NEWEST
+  Server address                : 10.10.1.172
+  Server port                   : 16196
+  Job execution timeout seconds : 600
+  Job info interval seconds     : 3
+  Socket read timeout           : 30
+  Encoding                      : ISO8859-1
+  Codepage                      : IBM-1047
+  Host user Id                  : ADCDS
+  Use Repository Server         : true
+  Account Information           : 
+  Dataset High Level Qualifier  : 
+15:06:25.723 INFO      Engine           Setting variables from context and context data extensions
+15:06:25.724 INFO      Engine             id: environmentId      value: 64991a29912e620b50cd466e
+15:06:25.724 INFO      Engine             id: environmentType    value: BATCH
+15:06:25.724 INFO      Engine             id: userId             value: ADCDS
+15:06:25.724 INFO      Engine             id: accountingInfo     value: 
+15:06:25.724 INFO      Engine             id: datasetHQL         value: 
+15:06:25.725 INFO      Component        Interpreting Component: PGM02C program:PGM02C
+15:06:25.726 INFO      172ABatch        Sending Module execution request to Host for module:PGM02C rollback:false
+15:06:25.971 INFO      HCIClient        Creating job directory /u/ibmuser/var/xatester/adcds/3838c9f011fb497ebc2dce9d748d45c3
+15:06:28.340 INFO      HCIClient        Job has been started at host with JobId:JOB05266
+15:06:34.215 INFO      172ABatch        Job execution completed with status:
+  Job status     : COMPLETED
+  Job status msg : Job ADCDSE(JOB05266) ended with return code: 0000
+  Job name       : ADCDSE
+  Job id         : JOB05266
+  Return code    : 0000
+  Abend code     : 
+  Abend reason   : 
+15:06:34.639 INFO      172ABatch        Component completed with program exit: +0
+15:06:35.093 INFO      Component        Verifying program exit code: 0 against verify expression: value < 8
+15:06:35.105 INFO      Component        Program exit code was verified to be accepted by the expression: value < 8
+15:06:35.105 INFO      Component        Finished interpreting Component: PGM02C program:PGM02C
+15:06:35.105 INFO      Engine           Test Scenario execution ended

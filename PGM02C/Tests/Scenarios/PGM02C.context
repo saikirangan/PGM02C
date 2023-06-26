@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ExecutionContext xmlns="http://www.xact.dk/xatester/v/1" environment="64991a29912e620b50cd466e" logLevel="INFO" remote="false" useSimulations="true" uploadResult="false" timeout="600" readTimeout="30" debuggerType="NONE" jobInfoInterval="3">
+  <ExtensionData />
+  <ExtensionData componentName="pgm02c" componentId="64991c00912e620b50cd4670" />
+  <XaUnit path="PGM02C.scenario" />
+</ExecutionContext>
