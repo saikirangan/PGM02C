@@ -49,7 +49,7 @@ on:
       userId:
         # repository server input from the user.
         description: HCI User ID
-        default: IBMUSER
+        default: ibmuser
         required: true
         
 # A workflow run is made up of one or more jobs that can run sequentially or in parallel
