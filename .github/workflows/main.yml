@@ -24,7 +24,7 @@ on:
       testFolderPath:
         # passticket input from the user.
         description: Test Location Path
-        default: C:\Users\sandhata\git\PGM02C\PGM02C\Tests
+        default: C:\Topaz\WorkbenchCLI\git\PGM02C\PGM02C\Tests
         required: true
       workspace:
         # Workspcae location of the customer input from the user.
