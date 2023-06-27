@@ -34,7 +34,7 @@ on:
       repository_server:
         # repository server input from the user.
         description: Repository Server
-        default: " http://10.10.1.174:48226/totaltestapi/"
+        default: "http://10.10.1.174:48226/totaltestapi/"
         required: true
       environment_id:
        # envitonment id 
