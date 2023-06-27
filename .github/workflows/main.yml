@@ -26,7 +26,11 @@ on:
         description: Test Location Path
         default: C:\Topaz\WorkbenchCLI\git\PGM02C\PGM02C\Tests
         required: true
-      
+      jclFile:
+        # JCL File Name
+        description: JCL File Name
+        default: C:\Topaz\WorkbenchCLI\LUNCHCX\LAUNCHCX\Tests\JCL\Runner.jcl
+        required: true
       workspace:
         # Workspcae location of the customer input from the user.
         description: CLI path
