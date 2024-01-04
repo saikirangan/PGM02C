@@ -1,7 +1,0 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<XaSuite xmlns="http://www.xact.dk/xatester/v/1" name="Default_entry" haltAtFailure="false">
-  <Description />
-  <XaUnits>
-    <Path>../Scenarios/PGM02C.scenario</Path>
-  </XaUnits>
-</XaSuite>
